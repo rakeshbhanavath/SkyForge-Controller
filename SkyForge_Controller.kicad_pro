@@ -674,7 +674,7 @@
       "version": 1
     },
     "net_format_name": "KiCad",
-    "page_layout_descr_file": "kicad-embed://KDT_Template.kicad_wks",
+    "page_layout_descr_file": "kicad-embed://SkyForge_Controller.kicad_wks",
     "plot_directory": "Schematic/",
     "reuse_designators": true,
     "space_save_all_events": true,

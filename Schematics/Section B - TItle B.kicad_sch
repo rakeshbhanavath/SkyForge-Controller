@@ -6,7 +6,6 @@
 	(paper "A3")
 	(title_block
 		(title "Sheet Title B")
-		(date "Last Modified Date")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
 	)

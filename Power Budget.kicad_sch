@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "77b0975c-c48a-4c84-9d3e-7b8fd5c68363")
+	(uuid "fd0605b3-5d73-4942-ba77-b8cc35fff219")
 	(paper "A4")
 	(lib_symbols)
 	(text_box "[${#}] Power Budget"

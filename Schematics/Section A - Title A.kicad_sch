@@ -37,7 +37,7 @@
 		)
 		(uuid "bb86d4de-8a6c-49fd-bb3c-0c8f9cc72e55")
 	)
-	(text "J. Pieper ADC investigation"
+	(text "Rakesh Bhanavath"
 		(exclude_from_sim no)
 		(at 142.24 170.18 0)
 		(effects
@@ -47,7 +47,7 @@
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
-			(href "https://jpieper.com/2023/07/24/stm32g4-adc-performance-part-2/")
+			(href "https://github.com/rakeshbhanavath")
 		)
 		(uuid "9b3ecc35-3df2-428b-a29e-c6c2c744422e")
 	)

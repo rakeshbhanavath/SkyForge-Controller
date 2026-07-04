@@ -176,7 +176,7 @@
 		)
 		(comment "Sheet id")
 	)
-	(tbtext "${REVISION}"
+	(tbtext "0"
 		(name "")
 		(pos 17.989 16.502)
 		(font
@@ -350,7 +350,7 @@
 		(start 43.489 33.5022)
 		(end 43.489 44.0022)
 	)
-	(tbtext "0"
+	(tbtext "v1"
 		(name "")
 		(pos 41.989 37.502)
 		(font
@@ -491,7 +491,7 @@
 		)
 		(comment "Sheet id")
 	)
-	(tbtext "${COMMENT1}"
+	(tbtext ""
 		(name "")
 		(pos 145.489 37.502)
 		(font
@@ -500,7 +500,7 @@
 		)
 		(comment "Sheet id")
 	)
-	(tbtext "${COMMENT2}"
+	(tbtext ""
 		(name "")
 		(pos 145.489 34.002)
 		(font
@@ -509,7 +509,7 @@
 		)
 		(comment "Sheet id")
 	)
-	(tbtext "${COMMENT3}"
+	(tbtext ""
 		(name "")
 		(pos 145.489 30.502)
 		(font
@@ -518,7 +518,7 @@
 		)
 		(comment "Sheet id")
 	)
-	(tbtext "${COMMENT4}"
+	(tbtext ""
 		(name "")
 		(pos 145.489 27.002)
 		(font
@@ -541,13 +541,5 @@
 		(name "")
 		(start 188.989 44.0022)
 		(end 188.989 2.0022)
-	)
-	(tbtext "${BOARD_NAME} ${DOC_TYPE} Document"
-		(name "")
-		(pos 262.989 261.5022)
-		(font
-			(face "Times New Roman")
-			(size 4 4)
-		)
 	)
 )
