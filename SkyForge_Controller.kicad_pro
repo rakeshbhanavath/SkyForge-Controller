@@ -691,11 +691,6 @@
         "filename": "SkyForge_Controller.kicad_sch",
         "name": "SkyForge_Controller",
         "uuid": "0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
-      },
-      {
-        "filename": "power_budget.kicad_sch",
-        "name": "Power Budget",
-        "uuid": "b440af5f-2b39-413d-beef-ad93f9c2d803"
       }
     ],
     "used_designators": "",
@@ -711,7 +706,7 @@
       "Block Diagram"
     ],
     [
-      "b440af5f-2b39-413d-beef-ad93f9c2d803",
+      "cc34871a-7b26-40f3-8884-480e71533a53",
       "Power Budget"
     ],
     [

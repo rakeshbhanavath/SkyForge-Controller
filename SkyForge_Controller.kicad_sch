@@ -1804,6 +1804,54 @@
 		)
 	)
 	(sheet
+		(at 381.254 302.514)
+		(size 29.21 4.826)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cc34871a-7b26-40f3-8884-480e71533a53")
+		(property "Sheetname" "Power Budget"
+			(at 381.254 301.8024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 1.905 1.905)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power Budget.kicad_sch"
+			(at 381.508 304.038 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SkyForge_Controller"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 299.72 302.26)
 		(size 35.56 5.08)
 		(exclude_from_sim no)
@@ -1945,7 +1993,7 @@
 		(instances
 			(project "SkyForge_Controller"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
-					(page "3")
+					(page "4")
 				)
 			)
 		)

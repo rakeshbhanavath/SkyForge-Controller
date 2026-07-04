@@ -63,7 +63,7 @@
 		)
 		(uuid "cc4cf7fb-4bd9-4be9-81d7-4f1f2d80469e")
 	)
-	(text "Page 4"
+	(text "Page 5"
 		(exclude_from_sim no)
 		(at 151.638 104.14 0)
 		(effects
@@ -73,11 +73,11 @@
 				(color 100 70 50 1)
 			)
 			(justify right bottom)
-			(href "#4")
+			(href "#5")
 		)
 		(uuid "2869e409-eb96-4d20-ad74-a37da8a89368")
 	)
-	(text "Page 5"
+	(text "Page 6"
 		(exclude_from_sim no)
 		(at 240.03 104.14 0)
 		(effects
@@ -87,7 +87,7 @@
 				(color 100 70 50 1)
 			)
 			(justify right bottom)
-			(href "#5")
+			(href "#6")
 		)
 		(uuid "c54c21a6-b82f-4883-adfa-9cf31abe82f0")
 	)
@@ -210,7 +210,7 @@
 		(instances
 			(project "SkyForge_Controller"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "4")
+					(page "5")
 				)
 			)
 		)
@@ -258,7 +258,7 @@
 		(instances
 			(project "SkyForge_Controller"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "5")
+					(page "6")
 				)
 			)
 		)
