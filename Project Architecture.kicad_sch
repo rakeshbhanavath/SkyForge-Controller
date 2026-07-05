@@ -158,6 +158,52 @@
 		(uuid "f890bb63-7be7-434c-9d54-8102b0d37829")
 	)
 	(sheet
+		(at 73.66 139.192)
+		(size 31.496 40.894)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "781253f3-dcc1-4f40-bd48-b60ccb1f23fb")
+		(property "Sheetname" "MCU_IO"
+			(at 73.66 138.4804 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Schematics\\MCU_IO.kicad_sch"
+			(at 73.66 180.6706 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SkyForge_Controller"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 124.46 80.01)
 		(size 27.686 25.146)
 		(exclude_from_sim no)
@@ -185,7 +231,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Schematics\\Section A - Title A.kicad_sch"
+		(property "Sheetfile" "Schematics/Section A - Title A.kicad_sch"
 			(at 124.46 105.7406 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -211,6 +257,52 @@
 			(project "SkyForge_Controller"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 140.462)
+		(size 30.226 39.624)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ca5b8412-cc57-4ec5-a6d8-13d5e1d62b0f")
+		(property "Sheetname" "MCU_POWER"
+			(at 128.27 139.7504 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Schematics\\MCU_Power.kicad_sch"
+			(at 128.27 180.6706 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SkyForge_Controller"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "9")
 				)
 			)
 		)
@@ -243,7 +335,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Schematics\\Section B - TItle B.kicad_sch"
+		(property "Sheetfile" "Schematics/Section B - TItle B.kicad_sch"
 			(at 204.47 105.9946 0)
 			(show_name no)
 			(do_not_autoplace no)

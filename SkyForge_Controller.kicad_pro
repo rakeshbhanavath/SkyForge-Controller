@@ -693,7 +693,7 @@
         "uuid": "0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1-3",
     "variants": []
   },
   "sheets": [
@@ -728,6 +728,14 @@
     [
       "e7c91631-be85-488a-af7a-f2a810f3fbfe",
       "Revision History"
+    ],
+    [
+      "781253f3-dcc1-4f40-bd48-b60ccb1f23fb",
+      "MCU_IO"
+    ],
+    [
+      "ca5b8412-cc57-4ec5-a6d8-13d5e1d62b0f",
+      "MCU_POWER"
     ]
   ],
   "text_variables": {
