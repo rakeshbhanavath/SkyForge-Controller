@@ -463,7 +463,7 @@
 		)
 		(comment "Sheet id")
 	)
-	(tbtext "${TITLE}"
+	(tbtext "${SHEETNAME}"
 		(name "")
 		(pos 145.489 16.502)
 		(font
