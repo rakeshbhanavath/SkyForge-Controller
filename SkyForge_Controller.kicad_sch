@@ -1804,6 +1804,55 @@
 		)
 	)
 	(sheet
+		(at 381.254 313.436)
+		(size 29.718 5.334)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "264aa8f2-295a-418e-8204-5879b3d71645")
+		(property "Sheetname" "Smoke Stopper"
+			(at 381.254 312.7244 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 1.905 1.905)
+					(thickness 0.381)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Smoke Stopper.kicad_sch"
+			(at 381.254 315.468 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SkyForge_Controller"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 381.254 302.514)
 		(size 29.21 4.826)
 		(exclude_from_sim no)

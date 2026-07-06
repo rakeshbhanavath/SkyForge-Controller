@@ -68,7 +68,7 @@
 		(uuid "18d023c4-e3f0-46c9-87ca-5d30d9cdf2c3")
 	)
 	(rectangle
-		(start 74.168 82.55)
+		(start 74.168 66.548)
 		(end 104.648 97.79)
 		(stroke
 			(width 0)
@@ -152,7 +152,7 @@
 		(uuid "55bb8f5d-1716-457c-ab18-7887e7f79c32")
 	)
 	(circle
-		(center 57.658 109.22)
+		(center 51.562 109.22)
 		(radius 1.016)
 		(stroke
 			(width 0)
@@ -250,7 +250,7 @@
 		(uuid "a952ed71-59f7-4034-9137-c9beed0052e5")
 	)
 	(rectangle
-		(start 66.548 74.93)
+		(start 66.548 62.23)
 		(end 112.268 123.19)
 		(stroke
 			(width 1.27)
@@ -403,7 +403,7 @@
 		(uuid "f4ff3a95-a29b-44f5-99fe-90e2d6c5e225")
 	)
 	(circle
-		(center 57.658 90.17)
+		(center 51.562 90.17)
 		(radius 1.016)
 		(stroke
 			(width 0)
@@ -476,9 +476,9 @@
 		)
 		(uuid "9f95118d-0d59-44c2-9418-d899cdef91d3")
 	)
-	(text "+??V"
+	(text "VIN (2S-6S LiPo)"
 		(exclude_from_sim no)
-		(at 52.578 78.74 0)
+		(at 40.132 78.486 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -1030,7 +1030,7 @@
 	)
 	(text_box "Page #"
 		(exclude_from_sim no)
-		(at 65.278 68.58 0)
+		(at 64.008 53.594 0)
 		(size 13.97 5.08)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1544,14 +1544,14 @@
 		)
 		(uuid "f73ecd5d-28d4-4dc6-ad8d-2c156959b733")
 	)
-	(text_box "Block\nDescription"
+	(text_box "+5V_MAIN Buck Converter"
 		(exclude_from_sim no)
-		(at 76.708 85.09 0)
-		(size 25.4 10.16)
+		(at 77.216 74.1471 0)
+		(size 25.4 22.8809)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
 			(width -0.0001)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -1564,7 +1564,7 @@
 				(bold yes)
 				(color 0 0 0 1)
 			)
-			(justify left top)
+			(justify top)
 		)
 		(uuid "fa5980b9-e4f3-4da8-ab01-e73489c1ad9d")
 	)
@@ -1671,7 +1671,7 @@
 	)
 	(polyline
 		(pts
-			(xy 57.658 80.01) (xy 57.658 90.17)
+			(xy 51.562 80.01) (xy 51.562 90.17)
 		)
 		(stroke
 			(width 1.016)
@@ -1726,7 +1726,7 @@
 	)
 	(polyline
 		(pts
-			(xy 57.658 99.06) (xy 57.658 109.22)
+			(xy 51.562 99.06) (xy 51.562 109.22)
 		)
 		(stroke
 			(width 1.016)
@@ -1759,7 +1759,7 @@
 	)
 	(polyline
 		(pts
-			(xy 57.658 90.17) (xy 57.658 99.06)
+			(xy 51.562 90.17) (xy 51.562 99.06)
 		)
 		(stroke
 			(width 1.016)
@@ -1781,7 +1781,7 @@
 	)
 	(polyline
 		(pts
-			(xy 73.66 90.17) (xy 57.658 90.17)
+			(xy 73.66 90.17) (xy 51.562 90.17)
 		)
 		(stroke
 			(width 1.016)
@@ -1792,7 +1792,7 @@
 	)
 	(polyline
 		(pts
-			(xy 53.848 80.01) (xy 57.658 80.01)
+			(xy 43.18 80.01) (xy 57.658 80.01)
 		)
 		(stroke
 			(width 1.016)
@@ -1833,6 +1833,17 @@
 			(color 0 0 0 1)
 		)
 		(uuid "906413a8-3629-4e1f-a212-33f5f54b8ca3")
+	)
+	(polyline
+		(pts
+			(xy 51.562 109.22) (xy 57.658 109.22)
+		)
+		(stroke
+			(width 1.016)
+			(type default)
+			(color 198 71 194 1)
+		)
+		(uuid "992808db-5397-401f-8b2c-eca35fc77c9b")
 	)
 	(polyline
 		(pts

@@ -184,7 +184,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Schematics\\MCU_IO.kicad_sch"
+		(property "Sheetfile" "Schematics/MCU_IO.kicad_sch"
 			(at 73.66 180.6706 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -288,7 +288,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Schematics\\MCU_Power.kicad_sch"
+		(property "Sheetfile" "Schematics/MCU_Power.kicad_sch"
 			(at 128.27 180.6706 0)
 			(show_name no)
 			(do_not_autoplace no)
