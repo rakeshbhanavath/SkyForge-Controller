@@ -7858,7 +7858,7 @@
 		)
 		(symbol "STM32H743VITx_BGA_2_1"
 			(pin power_in line
-				(at -5.08 -45.72 0)
+				(at -5.08 -87.63 0)
 				(length 5.08)
 				(name "VBAT"
 					(effects
@@ -7969,7 +7969,7 @@
 				)
 			)
 			(pin power_out line
-				(at -5.08 -77.47 0)
+				(at -5.08 -100.33 0)
 				(length 5.08)
 				(name "VCAP"
 					(effects
@@ -8041,7 +8041,7 @@
 				)
 			)
 			(pin power_out line
-				(at -5.08 -80.01 0)
+				(at -5.08 -102.87 0)
 				(length 5.08)
 				(name "VCAP"
 					(effects
@@ -8077,7 +8077,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -22.86 0)
+				(at -5.08 -60.96 0)
 				(length 5.08)
 				(name "VDDA"
 					(effects
