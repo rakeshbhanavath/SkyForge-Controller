@@ -662,7 +662,13 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "SWD": [
+        "SWDIO",
+        "SWCLK",
+        "NRST"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -711,7 +717,7 @@
         "uuid": "0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
       }
     ],
-    "used_designators": "Y1-3,C9-14,#PWR4-7",
+    "used_designators": "Y501-502,D1208-1209,#PWR8-9,#PWR307,#PWR603-604,#PWR1206-1207,R605-607,J1203,#FLG1201,C609-612,C1207-1208,U603",
     "variants": []
   },
   "sheets": [
@@ -758,6 +764,14 @@
     [
       "264aa8f2-295a-418e-8204-5879b3d71645",
       "Smoke Stopper"
+    ],
+    [
+      "b78f224b-33e3-4c40-b60c-4fa6335f18cd",
+      "Connectors - IO"
+    ],
+    [
+      "021f90fa-490d-4e3b-988d-faee877a382b",
+      "Power Conversion & Selection"
     ]
   ],
   "text_variables": {
