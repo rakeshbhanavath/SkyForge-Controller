@@ -184,7 +184,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Schematics\\Power Conversion & Selection.kicad_sch"
+		(property "Sheetfile" "Schematics/Power Conversion & Selection.kicad_sch"
 			(at 225.552 179.6546 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -395,6 +395,52 @@
 			(project "SkyForge_Controller"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
 					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 282.448 145.796)
+		(size 23.876 32.766)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cb1ba2ea-2650-452d-9c70-aa6d27a45f43")
+		(property "Sheetname" "USB"
+			(at 282.448 145.0844 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Schematics/USB.kicad_sch"
+			(at 282.448 179.1466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SkyForge_Controller"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "13")
 				)
 			)
 		)

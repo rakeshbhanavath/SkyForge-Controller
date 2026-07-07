@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "8782d094-e00b-475c-8743-78843a4975db")
+	(uuid "cff442b4-75a1-4f85-83ba-228a36ab7493")
 	(paper "A3")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x05"
@@ -1681,7 +1681,7 @@
 		)
 		(uuid "fd617e42-9365-4002-9882-fa5df858e4c3")
 	)
-	(text "6 pin top entry molex SD connector"
+	(text "4 pin top entry molex SD connector"
 		(exclude_from_sim no)
 		(at 185.674 162.306 90)
 		(effects

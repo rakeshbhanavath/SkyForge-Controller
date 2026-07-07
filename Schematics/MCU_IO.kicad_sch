@@ -3268,6 +3268,19 @@
 		(uuid "0cef9ecf-2026-43ef-a842-6d6a1939f5e1")
 	)
 	(rectangle
+		(start 349.758 104.394)
+		(end 398.78 122.428)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2b871a5f-60ec-458c-8bbc-1e169d936253")
+	)
+	(rectangle
 		(start 24.13 47.244)
 		(end 100.33 87.63)
 		(stroke
@@ -3306,6 +3319,43 @@
 		)
 		(uuid "9894bf8e-39a4-4e03-991d-829bcc41f4a5")
 	)
+	(rectangle
+		(start 348.996 76.454)
+		(end 398.018 101.981)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "eeabc8a7-8760-484d-abb3-c265e022bd5b")
+	)
+	(text_box "USB"
+		(exclude_from_sim no)
+		(at 349.758 93.4587 0)
+		(size 47.498 7.7603)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "29409746-d987-4f3e-9c5d-42f1caec7336")
+	)
 	(text_box "DESIGN NOTE:\nLSE is DNP so didn't mentioned values"
 		(exclude_from_sim no)
 		(at 75.184 109.1478 0)
@@ -3328,6 +3378,30 @@
 			(justify left top)
 		)
 		(uuid "74285081-174c-4bf0-9bdc-365992421ca4")
+	)
+	(text_box "VBUS"
+		(exclude_from_sim no)
+		(at 350.52 114.6677 0)
+		(size 47.498 7.7603)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "76deb1b1-f91c-4041-aacf-ecfc05e8db2e")
 	)
 	(text_box "SWD (Debug) Port"
 		(exclude_from_sim no)
@@ -3461,6 +3535,15 @@
 		(uuid "e19ab646-8031-4320-86fe-f7e2c0d129ea")
 	)
 	(bus_entry
+		(at 377.19 86.36)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01151ef9-2802-4a00-aa97-6ec2dfac78df")
+	)
+	(bus_entry
 		(at 377.19 54.61)
 		(size -2.54 2.54)
 		(stroke
@@ -3477,6 +3560,15 @@
 			(type default)
 		)
 		(uuid "7b4585d5-6a3b-4b89-adef-f3b99d0ca8b3")
+	)
+	(bus_entry
+		(at 377.19 88.9)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb35c38-de5a-44ff-add7-f3783ae284c9")
 	)
 	(bus_entry
 		(at 377.19 59.69)
@@ -3506,6 +3598,16 @@
 			(type default)
 		)
 		(uuid "0732bcda-d131-4a1d-b8b9-dc3707a80058")
+	)
+	(wire
+		(pts
+			(xy 240.03 91.44) (xy 260.35 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d84d2e2-4bd4-42fc-a5ae-0ae6fa9927fe")
 	)
 	(bus
 		(pts
@@ -3546,6 +3648,16 @@
 			(type default)
 		)
 		(uuid "14db6965-aeec-4393-999f-0f4244872f09")
+	)
+	(wire
+		(pts
+			(xy 260.35 93.98) (xy 240.03 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f36d11-8345-496f-97e8-a97a3b766e4d")
 	)
 	(wire
 		(pts
@@ -3627,6 +3739,16 @@
 		)
 		(uuid "2fb19b52-3c2c-409e-9ded-7367d3068f74")
 	)
+	(bus
+		(pts
+			(xy 377.19 85.09) (xy 377.19 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3618f371-6079-40b1-94ca-33c64268bddd")
+	)
 	(wire
 		(pts
 			(xy 69.85 62.23) (xy 64.77 62.23)
@@ -3697,6 +3819,26 @@
 		)
 		(uuid "6b810bf4-0a9a-4c00-a315-0321dfc2fa8d")
 	)
+	(bus
+		(pts
+			(xy 379.73 82.55) (xy 377.19 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d7118a4-cf39-48b3-8394-e353267eaf43")
+	)
+	(bus
+		(pts
+			(xy 382.27 82.55) (xy 379.73 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8224ce67-6ff6-4155-a81d-b7a5d1bcb317")
+	)
 	(wire
 		(pts
 			(xy 50.8 71.12) (xy 50.8 74.93)
@@ -3739,6 +3881,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 88.9) (xy 374.65 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a103895-59da-4965-b5eb-3fa8b6f5a5e6")
+	)
+	(wire
+		(pts
 			(xy 60.96 54.61) (xy 60.96 57.15)
 		)
 		(stroke
@@ -3749,13 +3901,23 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 86.36) (xy 260.35 86.36)
+			(xy 240.03 88.9) (xy 260.35 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0497e07-7a85-4ec7-8aea-708119415da3")
+		(uuid "9d3fb707-69d5-420e-b415-b8e31f320a6b")
+	)
+	(wire
+		(pts
+			(xy 260.35 96.52) (xy 240.03 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acc74766-a3a5-472f-820b-0908e9627e0e")
 	)
 	(bus
 		(pts
@@ -3839,6 +4001,26 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 111.76) (xy 384.81 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef079a7a-8436-4986-bbc6-0c830307f139")
+	)
+	(wire
+		(pts
+			(xy 363.22 91.44) (xy 374.65 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f127c666-6a75-4a53-9910-cd6eaae494a5")
+	)
+	(wire
+		(pts
 			(xy 240.03 185.42) (xy 262.89 185.42)
 		)
 		(stroke
@@ -3897,6 +4079,26 @@
 		)
 		(uuid "039e099a-f56d-4734-b47e-6e5b3b1dada5")
 	)
+	(label "USB_D-"
+		(at 260.35 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "18168911-53a7-4222-a7ba-4cceb0fb0e41")
+	)
+	(label "VBUS"
+		(at 260.35 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1d2b5158-e525-4532-a4c7-f25667ea932f")
+	)
 	(label "SWDIO"
 		(at 359.41 57.15 0)
 		(effects
@@ -3907,15 +4109,15 @@
 		)
 		(uuid "20335d7b-90a3-4f16-9d69-d48e7c16ddee")
 	)
-	(label "SWCLK"
-		(at 260.35 83.82 180)
+	(label "VBUS"
+		(at 361.95 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "254e2622-ea84-4ddc-849d-d879431f7246")
+		(uuid "22ece0a9-b655-4131-ab7c-1925ca74d9eb")
 	)
 	(label "NRST"
 		(at 359.41 62.23 0)
@@ -3927,15 +4129,15 @@
 		)
 		(uuid "389ec139-f0ba-4e4c-9719-e59434d159ed")
 	)
-	(label "SWDIO"
-		(at 260.35 86.36 180)
+	(label "USB_D+"
+		(at 260.35 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "3bf1dce8-2871-460c-866a-9b26973874d0")
+		(uuid "3d7b4f57-ad53-4cb3-89bd-1671a16cc359")
 	)
 	(label "HSE_PH1"
 		(at 43.18 62.23 0)
@@ -3967,6 +4169,16 @@
 		)
 		(uuid "72b65daf-a452-4c30-af61-e742c43813d5")
 	)
+	(label "SWDIO"
+		(at 260.35 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "78b3c050-6f43-4172-ba42-3c6ee0eebb3f")
+	)
 	(label "LSE_PH1"
 		(at 262.89 182.88 180)
 		(effects
@@ -3987,6 +4199,16 @@
 		)
 		(uuid "96d9ac4a-91c9-4c0b-90f8-172c2a464e38")
 	)
+	(label "SWCLK"
+		(at 260.35 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9c311f8b-d57d-45c6-a585-d88b1e4f9f09")
+	)
 	(label "LSE_PH0"
 		(at 81.28 100.33 180)
 		(effects
@@ -3996,6 +4218,16 @@
 			(justify right bottom)
 		)
 		(uuid "ad3626dc-9b83-476e-bf94-72edb4945e03")
+	)
+	(label "USB_D-"
+		(at 363.22 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae08e6e3-05cb-4d8d-be5b-7209a1ba75fc")
 	)
 	(label "LSE_PH0"
 		(at 262.89 185.42 180)
@@ -4027,6 +4259,16 @@
 		)
 		(uuid "d1c20df6-52ce-4355-a341-6d4c4273eac3")
 	)
+	(label "USB_D+"
+		(at 363.22 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e93defb0-0c3e-4bea-9d2b-035b6384d6a1")
+	)
 	(hierarchical_label "{SWD}"
 		(shape bidirectional)
 		(at 383.54 50.8 0)
@@ -4039,6 +4281,41 @@
 			(justify left)
 		)
 		(uuid "0a27b13a-7969-41e6-86b0-2e532397ba3f")
+	)
+	(hierarchical_label "VBUS"
+		(shape output)
+		(at 384.81 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77794e8a-8b2c-4900-9d0b-1eeb68be12be")
+	)
+	(hierarchical_label "{USB}"
+		(shape bidirectional)
+		(at 382.27 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88a0f4d3-4aa1-4aa2-9770-7714efe152d1")
+		(property "Net Class" "USB"
+			(at 384.048 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(rule_area
 		(exclude_from_sim no)
