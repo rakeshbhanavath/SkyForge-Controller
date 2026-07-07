@@ -184,7 +184,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Schematics/untitled.kicad_sch"
+		(property "Sheetfile" "Schematics\\Power Conversion & Selection.kicad_sch"
 			(at 225.552 179.6546 0)
 			(show_name no)
 			(do_not_autoplace no)

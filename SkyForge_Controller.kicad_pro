@@ -541,9 +541,20 @@
       },
       {
         "bus_width": 12,
-        "name": "FMU_VDD_3V3",
+        "line_style": 0,
+        "name": "+3V3_PROG",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgb(255, 175, 122)",
+        "tuning_profile": "",
+        "wire_width": 24
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "FMU_VDD_3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgb(255, 106, 3)",
         "tuning_profile": "",
         "wire_width": 24
@@ -558,7 +569,7 @@
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -580,6 +591,10 @@
       {
         "netclass": "FMU_VDD_3V3",
         "pattern": "FMU_VDD_3V3"
+      },
+      {
+        "netclass": "FMU_VDD_3V3",
+        "pattern": "+3V3_PROG"
       }
     ]
   },
@@ -717,7 +732,7 @@
         "uuid": "0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
       }
     ],
-    "used_designators": "Y501-502,D1208-1209,#PWR8-9,#PWR307,#PWR603-604,#PWR1206-1207,R605-607,J1203,#FLG1201,C609-612,C1207-1208,U603",
+    "used_designators": "Y501-502,D1002-1004,D1208-1209,#PWR8-9,#PWR307,#PWR603-604,#PWR1003-1004,#PWR1206-1207,R605-607,R1007-1008,J1,J1002,J1203,#FLG1201,C609-612,C1207-1208,U603",
     "variants": []
   },
   "sheets": [
