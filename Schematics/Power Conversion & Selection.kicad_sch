@@ -978,7 +978,7 @@
 	)
 	(text_box "DESIGN NOTE:\nVOUT_SRC indicates which input is being selected.\nVOUT_SRC high => VIN1 selected\nVOUT_SRC low  => VIN2 selected"
 		(exclude_from_sim no)
-		(at 144.145 159.385 0)
+		(at 144.526 145.034 0)
 		(size 36.83 15.24)
 		(margins 1.525 1.525 1.525 1.525)
 		(stroke
@@ -1099,6 +1099,12 @@
 		(uuid "3a072865-d86d-46b4-a161-70d2c393511c")
 	)
 	(junction
+		(at 181.61 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47e7ba84-f1b9-491e-9b21-ef6e6ea14272")
+	)
+	(junction
 		(at 160.02 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1141,16 +1147,16 @@
 		(uuid "8379f1ea-ba67-4b65-a093-174594c64046")
 	)
 	(junction
-		(at 179.07 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95bc6470-9df4-42a9-b4c8-259502b84c13")
-	)
-	(junction
 		(at 107.95 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3a1edac-7d7f-48ff-a4a9-082f0947fcf7")
+	)
+	(junction
+		(at 179.07 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1ae39ab-7420-43ae-a7a9-17456874d608")
 	)
 	(junction
 		(at 160.02 207.01)
@@ -1301,6 +1307,16 @@
 			(type default)
 		)
 		(uuid "1d5a7ec1-236b-40db-9fa1-5877c04fbe20")
+	)
+	(wire
+		(pts
+			(xy 181.61 180.34) (xy 181.61 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d7d673f-1cec-4161-8069-11da7665928a")
 	)
 	(polyline
 		(pts
@@ -1573,6 +1589,16 @@
 			(type default)
 		)
 		(uuid "8328c6e2-a03c-41e2-904e-4bc40e2b4588")
+	)
+	(wire
+		(pts
+			(xy 181.61 181.61) (xy 184.15 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85062200-042a-4407-b853-dab1445ba7d3")
 	)
 	(wire
 		(pts
@@ -1866,7 +1892,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 181.61) (xy 186.69 181.61)
+			(xy 179.07 181.61) (xy 181.61 181.61)
 		)
 		(stroke
 			(width 0)
@@ -2083,9 +2109,9 @@
 		)
 		(uuid "177c70d5-6fe9-4608-8678-db89ddfff0ba")
 	)
-	(hierarchical_label "FMU_3V3"
+	(hierarchical_label "FMU_VDD_3V3"
 		(shape output)
-		(at 186.69 181.61 0)
+		(at 184.15 181.61 0)
 		(effects
 			(font
 				(face "Arial")
@@ -2435,6 +2461,83 @@
 			(project "SkyForge_Controller"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/021f90fa-490d-4e3b-988d-faee877a382b"
 					(reference "C611")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 181.61 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3908110a-9aea-42c7-b210-703edb1249d1")
+		(property "Reference" "#PWR0308"
+			(at 181.61 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FMU_VDD_3V3"
+			(at 181.61 176.022 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 181.61 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "883fac3b-d9fe-4e8f-8d41-454a164f6e0a")
+		)
+		(instances
+			(project "SkyForge_Controller"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/021f90fa-490d-4e3b-988d-faee877a382b"
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)

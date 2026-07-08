@@ -1,4 +1,5 @@
 (sym_lib_table
 	(version 7)
 	(lib (name "MCU_ST_STM32H743VIH6") (type "KiCad") (uri "${KIPRJMOD}/lib/lib_sym/MCU_ST_STM32H743VIH6.kicad_sym") (options "") (descr ""))
+	(lib (name "0_Memory") (type "KiCad") (uri "${KIPRJMOD}/lib/lib_sym/0_Memory.kicad_sym") (options "") (descr ""))
 )

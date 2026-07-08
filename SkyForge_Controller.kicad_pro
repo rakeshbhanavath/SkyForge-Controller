@@ -541,10 +541,19 @@
       },
       {
         "bus_width": 12,
+        "name": "+3V3_LDO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 226, 48)",
+        "tuning_profile": "",
+        "wire_width": 24
+      },
+      {
+        "bus_width": 12,
         "line_style": 0,
         "name": "+3V3_PROG",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(255, 175, 122)",
         "tuning_profile": "",
         "wire_width": 24
@@ -554,7 +563,7 @@
         "line_style": 0,
         "name": "FMU_VDD_3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 106, 3)",
         "tuning_profile": "",
         "wire_width": 24
@@ -569,7 +578,7 @@
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -614,6 +623,10 @@
       {
         "netclass": "FMU_VDD_3V3",
         "pattern": "+3V3_PROG"
+      },
+      {
+        "netclass": "+3V3_LDO",
+        "pattern": "+3V3_LDO"
       }
     ]
   },
@@ -756,7 +769,7 @@
         "uuid": "0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
       }
     ],
-    "used_designators": "#PWR308,#PWR605-606,C613-616,R608-610,U604",
+    "used_designators": "#PWR6-7,#PWR308,#PWR605-606,#PWR1202-1203,C9,C613-616,IC1,R608-610,U604",
     "variants": []
   },
   "sheets": [
@@ -815,6 +828,10 @@
     [
       "cb1ba2ea-2650-452d-9c70-aa6d27a45f43",
       "USB"
+    ],
+    [
+      "96958c02-0442-4084-8b54-f90ffed8cca1",
+      "Memory"
     ]
   ],
   "text_variables": {

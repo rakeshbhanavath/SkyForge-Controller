@@ -250,6 +250,52 @@
 		)
 	)
 	(sheet
+		(at 325.374 145.288)
+		(size 22.098 32.766)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "96958c02-0442-4084-8b54-f90ffed8cca1")
+		(property "Sheetname" "Memory"
+			(at 325.374 144.5764 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Schematics/Memory.kicad_sch"
+			(at 325.374 178.6386 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SkyForge_Controller"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 174.244 140.462)
 		(size 32.766 39.878)
 		(exclude_from_sim no)
