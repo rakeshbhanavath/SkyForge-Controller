@@ -4521,25 +4521,6 @@
 			)
 		)
 	)
-	(rule_area
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(polyline
-			(pts
-				(xy 24.13 90.17) (xy 24.13 128.27) (xy 100.33 128.27) (xy 100.33 90.17)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid "37d9504b-e852-4145-8d08-0f2b06079717")
-		)
-	)
 	(symbol
 		(lib_id "power:GND")
 		(at 58.42 115.57 0)
@@ -5374,7 +5355,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ba75d214-b929-4613-a7b5-96c84bd4b1e3")
 		(property "Reference" "Y502"
 			(at 52.578 97.282 0)
@@ -5481,7 +5462,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bfff37b2-8e67-44e3-bf29-a404f8c9d271")
 		(property "Reference" "C13"
 			(at 42.418 106.934 0)
@@ -5573,7 +5554,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d9d0d096-6016-4589-9fb4-ad4628cb6dc2")
 		(property "Reference" "C14"
 			(at 60.96 106.68 0)
